@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+    h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    }
+    h3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    }
+    p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    }
+    blockquote {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+    }
+    pre {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+    }
+    <title>SalesTool WebApp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </style>
+</head>
+<body>
+<table style="height: 321px; margin-left: auto; margin-right: auto;" border="1" width="75%" cellspacing="0"
+       cellpadding="10">
+    <caption>&nbsp;</caption>
+    <tbody>
+    <tr>
+        <td align=center>SalesTool WebApp</td>
+    </tr>
+    <tr>
+        <td>
+            <form enctype="multipart/form-data" method="post" action="/sales-tool/rest/sales/update">Account:<br/>
+                <input name="account" type="text" placeholder="account"/><br/><br/> User:<br/> <input name="user" type="text" placeholder="user"/><br/><br/>
+                Password:<br/> <input name="pwd" type="password" placeholder="password"/><br/><br/> Destination Server:<br/> <input
+                        name="server" type="text" placeholder="subdomain.maxoptra.com"/><br><br>Upload file:<input type="file" name="f" accept=".csv">
+                <br><br><input type="submit" value="Submit"/></form>
+        </td>
+    </tr>
+    <tr>
+        <td><p align="center">Result</p>
+
+        </td>
+    </tr>
+    <tr>
+        <td><p>&nbsp;</p></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
